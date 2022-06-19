@@ -1,0 +1,43 @@
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+// *  EXAMPLE DICT                                                           * 
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+// Define parameters for your project
+//
+// How to use:
+// COMMENT
+/* COMMENT
+    OVER
+    MUTIPLE
+    LINES
+*/
+// 
+// Close your dict entry using a semi-colon
+
+
+exampleParameter            yes;
+
+directory                   results/example/;
+
+exampleEntry
+{
+    directory               exampleEntry/;
+    exampleFilename         example;
+    subExamples
+    {
+        x                   'x';
+        y                   'y';
+        z                   'z';
+    };
+    
+    exampleParameter1        64;
+    exampleParameter2       no;
+    
+};
+
+exampleEntry1
+{
+    exampleList             '[50, 150]'; 
+};
+
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
